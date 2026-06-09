@@ -1,0 +1,61 @@
+/* Element Selector */
+body{
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    font-family: Tahoma, sans-serif;
+}
+
+/* Class Selector */
+.card{
+    width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border: 2px solid #0d6efd;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+h1{
+    color: #0d6efd;
+}
+
+h2{
+    color: #333;
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 5px;
+}
+
+/* ID Selector */
+#profile{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #0d6efd;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+}
+
+#contact{
+    background: #e9f2ff;
+    border: 1px solid #0d6efd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/* Class Selector */
+.info{
+    text-align: left;
+    margin-top: 15px;
+}
+
+ul{
+    padding-left: 20px;
+}
